@@ -44,7 +44,7 @@ Xlf = (2*Ms)/(3*Hk);
 % ΔX
 deltaX = Xlf - Xhf;
 
-% wt e wt²
+% wt and (wt)²
 wt = w.*t;
 wt2 = wt.^2;
 
