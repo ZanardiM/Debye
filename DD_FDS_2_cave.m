@@ -1,5 +1,6 @@
 clc;clear;close all;
 
+%-----File reading and data selection-------%
 SN=input('SHEET NAME  ');
 DATA=xlsread('FDS_MPMS_cave.xlsx',SN);  
 tester = zeros(29,5);
@@ -18,6 +19,7 @@ Xr_5=DATA(:,10);Xq_5=DATA(:,11);
 Xr=[Xr_1 Xr_2 Xr_3 Xr_4 Xr_5]; 
 Xq=[Xq_1 Xq_2 Xq_3 Xq_4 Xq_5]; 
 
+%-----variables initialization and initial values------%
 p=5;
 N=length(Temp);
 nof=N;
