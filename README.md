@@ -16,4 +16,6 @@ BF63.m - realiza o processo de inversão para esse conjunto de dados, fornecendo
 DD_FDS_2_cave.m - realiza o processo de inversão para esse conjunto de dados, fornecendo além dos parâmetros obtidos via inversão (distribuição p, Xhf e ΔX) os espectros de X' e X''
 
 6. Terra Preta Indígena
+
+
 DD_FDS_2_TPI.m - realiza o processo de inversão para esse conjunto de dados, fornecendo além dos parâmetros obtidos via inversão (distribuição p, Xhf e ΔX) os espectros de X' e X''
