@@ -46,7 +46,7 @@ for nu=1:nof
         end
     end
     
-    %-------------Calculation of P, dx and Xhf------------%
+    %-------------Determination of p, dx and Xhf------------%
     q1=lsqnonneg(Gq,Xq_obs); 
     dx=-sum(q1); 
     r=Xr_obs+(Gr*q1);
