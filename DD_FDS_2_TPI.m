@@ -79,6 +79,9 @@ for nu=1:nof
     q=dx*pk;
     Xr_calc=X_hf-(Gr*q);
     Xq_calc=-Gq*q;
+
+    XH(nu)=xhf;
+    DX(nu)=dx;
      
     %---------RMS---------%
     d_XH(nu)=rms(XH); % RMS of Xhf
