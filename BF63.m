@@ -57,7 +57,12 @@ for nu=1:nof
     G=[Gr;Gq;M];
     d=[Xrn;Xqn;o];
     p=lsqlin(G,d,[],[],ones(1,m),1,lb,1*ub);
-    Xr_calc=Xsd+(dX*Gr*p);Xq_calc=dX*Gq*p; % X' and X'' obtained through inversion    
+    Xr_calc=Xsd+(dX*Gr*p);Xq_calc=dX*Gq*p; % X' and X'' obtained through inversion   
+
+    XH(nu)=Xsd;
+    Xsp=dX+Xsd;
+    DX(nu)=dX;
+    XL(nu)=Xsp;
  
 %-------p distribution, X' and X'' plotting------------%   
     figure
